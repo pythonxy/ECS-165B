@@ -1,0 +1,6 @@
+BEGIN;
+INSERT INTO Parent VALUES ('A', 'B');
+INSERT INTO Parent VALUES ('C', 'D');
+INSERT INTO Parent VALUES ('D', 'Y');
+INSERT INTO Parent VALUES ('C', 'Z');
+COMMIT;
